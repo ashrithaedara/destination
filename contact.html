@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <!-- Contact Form -->
+    <form id="contactForm" onsubmit="return validateForm()">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+
+    <footer>
+        <p>© 2025 WANDERER</p>
+        <ul>
+            <li><a href="https://www.facebook.com/login" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/accounts/login" target="_blank">Instagram</a></li>
+            <li><a href="https://twitter.com/login" target="_blank">Twitter</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
